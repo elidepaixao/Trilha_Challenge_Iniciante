@@ -49,13 +49,13 @@ font: var(--h1);
 }
 
 .content p {
-  font: var(--text-lg);
+  font: var(--text-md);
  
 }
 button {
 
   background-color: var(--bg-color-light);
-  padding: 1rem 2rem;
+  padding: 0.8rem 3rem;
   border-radius: 0.6rem;
   font: var(--h4);
   border: none;
@@ -101,15 +101,15 @@ margin: 0 auto;
   justify-content: center;
   color: white;
   text-align: center;
-  min-height: 250px; /*mudança*/
+  min-height: 300px; /*mudança*/
   transition: transform 0.3s ease, box-shadow 0.3s ease;
  
 }
 
 .icon {
-width: 60px;
-height: 60px;
-margin-bottom: 1.5rem;
+width: 80px;
+height: 80px;
+margin-bottom: 0.8rem;
 
 padding: 10px;
 
@@ -164,6 +164,7 @@ figure img {
  
   color: var(--text-color-light);
   max-width: 600px;
+  text-align: justify;
   
   
 }
@@ -288,3 +289,100 @@ border-radius: 5px;
 p + p {
   margin-top: 20px;
 }
+
+/*SOCIAL-MEDIA SECTION*/
+
+.media {
+  background-color: var(--bg-color-dark);
+  padding: 6rem 4rem;
+
+  
+}
+.social-media-title {
+
+  text-align: center;
+ 
+  color: var(--text-color-light);
+  font: var(--h3);
+
+  span {
+    color: var(--text-color-green);
+  }
+  
+  h3 {
+    margin-bottom: 30px;
+  }
+}
+
+
+.social-media-grid {
+  display: grid;
+  grid-template-columns: repeat(3, 1fr); 
+ 
+  gap: 2rem;
+  max-width: 1200px;
+  margin: 0 auto;
+}
+
+.grid-media {
+  background-color: var(--bg-color-light);
+  
+  border-radius: 8px;
+  padding: 2rem;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  
+  text-align: center;
+  min-height: 300px;
+  transition: transform 0.3s ease, box-shadow 0.3s ease;
+
+  h4 {
+  color: var(--text-color-dark);
+  font: var(--h4);
+  width: 150px; 
+  }
+
+  p {
+  color: var(--text-color-dark);
+  font: var(--text-xsm); 
+  width: 200px;
+  margin-top: 10px;
+  }
+
+  button {
+    background-color: var(--bg-color-dark);
+    color: var(--text-color-green);
+    font: var(--text-xsm);
+
+    padding: 0.3rem 1rem;
+    margin-top: 1rem;
+  }
+
+  }
+
+  .whatsapp {
+    background-color: var(--bg-color-light);
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    padding: 2rem;
+
+    h1 {
+      margin-top: 20px;
+      font: var(--h1);
+    }
+  
+
+    button {
+    background-color: var(--bg-color-dark);
+    color: var(--text-color-green);
+    font: var(--text-xsm);
+
+    padding: 0.3rem 1rem;
+    margin-top: 2rem;
+
+     }
+
+  }
