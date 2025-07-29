@@ -7,9 +7,10 @@
 :root {
   --bg-color-dark: #000000;
   --bg-color-light: #C9F31D;
+  --bg-color-white: #FFFFFF;
   --text-color-light: #FFFFFF;
   --text-color-blacK: #3e3e3e;
-;
+
   --text-color-green: #C9F31D;
 
 
@@ -17,9 +18,10 @@
   --h1: 600 1.5rem/250% var(--font-family);
   --h2: 700 1.2rem/100% var(--font-family);
   --h3: 700 1rem/100% var(--font-family);
-  --h4: 700 0.8rem/100% var(--font-family);  
+  --h4: 700 0.8rem/150% var(--font-family);  
   --text-lg: 400 1.5rem/130% var(--font-family);
-  --text-md: 400 1.2rem/100% var(--font-family);
-  --text-sm: 400 1rem/168% var(--font-family); 
+  --text-md: 400 1.2rem/130% var(--font-family);
+  --text-sm: 400 1rem/180% var(--font-family);
+  --text-xsm: 400 0.8rem/180% var(--font-family); 
 
 }

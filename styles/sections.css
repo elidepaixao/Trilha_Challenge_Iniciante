@@ -4,7 +4,7 @@
 background-color: var(--bg-color-dark);
 min-height: 100vh;
 
-padding: 4rem 5%;
+padding: 4rem;
 display: flex;
 flex-direction: column;
 justify-content: center;
@@ -12,8 +12,6 @@ align-items: center;
 text-align: center;
 
 gap: 3rem;
-
-
 
 }
 
@@ -165,7 +163,7 @@ figure img {
 .content-challenge {
  
   color: var(--text-color-light);
-  max-width: 390px;
+  max-width: 600px;
   
   
 }
@@ -184,5 +182,109 @@ figure img {
 
 .content-challenge button {
   padding: 1rem 3rem;
+  margin-top: 20px;
   
+}
+
+/*Learning-topics SECTION*/
+
+/*.learning-topics {
+  background-color: var(--bg-color-light);
+  padding: 2rem 4rem;
+
+  position: relative;
+  height: 100vh;
+}
+
+.box-content {
+  position: absolute;
+  top: 50%;
+  left: 50%;
+  transform: translate(-50%, -50%);
+}*/
+
+
+
+.learning-topics {
+  background-color: var(--bg-color-light);
+  padding: 2rem 4rem;
+
+}
+
+.box-content {
+  max-width: 720px;
+  width: 100%; 
+
+  margin: 0 auto;
+
+}
+
+.title-box {
+  background-color: var(--bg-color-dark);
+  color: var(--text-color-light);
+  font: var(--h4);
+
+  display: flex;
+  padding: 1rem;
+  border-radius: 5px;
+ 
+}
+.learning-box {
+  background-color: var(--bg-color-white);
+
+  display: flex;
+  justify-content: center; /* horizontal */
+  align-items: center;     /* vertical */
+  height: 200px;
+}
+
+.learning-box ul {
+  list-style: none;
+  margin-left: 10px;
+  
+  font: var(--text-xsm);
+}
+
+.footer-box {
+background-color: var(--bg-color-dark);
+padding: 1.5rem;
+border-radius: 5px;
+
+}
+
+/*CONGRATULATIONS*/
+
+.congratulations {
+  background-image: url('../assets/images/background-page2.jpg');
+  background-size: cover;
+  background-position: center;
+  background-repeat: no-repeat;
+  height: 100vh; /* ajusta conforme o necessário */
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  padding: 2rem;
+  color: white; /* ou outra cor que contraste com o fundo */
+  text-align: center;
+}
+
+.text-background {
+  max-width: 600px;
+ 
+}
+
+.text-background h1 {
+  margin-bottom: 40px;
+  color: var(--text-color-green);
+  font: (--h1)
+}
+
+
+.congratulations .text-background p {
+  font: var(--text-md);
+
+}
+
+p + p {
+  margin-top: 20px;
 }
