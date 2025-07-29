@@ -1,0 +1,72 @@
+ Responsividade 
+    @media (max-width: 768px) {
+      .hero {
+        padding: 2rem 5%;
+        gap: 2rem;
+      }
+
+      .content {
+        gap: 1.5rem;
+      }
+
+      .content h1 {
+        font-size: 1.2rem;
+      }
+
+      .content p {
+        font-size: 1rem;
+      }
+
+      .container {
+        padding: 4rem 1rem;
+      }
+
+      .container h2 {
+        font-size: 1.5rem;
+        margin-bottom: 2rem;
+      }
+
+      .grid {
+        grid-template-columns: 1fr;
+        gap: 1.5rem;
+      }
+
+      .grid-cards {
+        padding: 1.5rem;
+        min-height: 200px;
+      }
+
+      .icon {
+        width: 50px;
+        height: 50px;
+        margin-bottom: 1rem;
+      }
+    }
+
+    @media (max-width: 480px) {
+      .hero {
+        padding: 1.5rem 3%;
+      }
+
+      .content h1 {
+        font-size: 1rem;
+      }
+
+      .content p {
+        font-size: 0.9rem;
+      }
+
+      button {
+        padding: 0.8rem 1.5rem;
+        font-size: 0.8rem;
+      }
+
+      .container {
+        padding: 3rem 1rem;
+      }
+
+      .grid-cards {
+        padding: 1.2rem;
+        min-height: 180px;
+      }
+    }

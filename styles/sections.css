@@ -2,27 +2,32 @@
 
 .hero {
 background-color: var(--bg-color-dark);
-height: 100vh;
+min-height: 100vh;
 
-padding: 12rem 20rem;
+padding: 4rem 5%;
 display: flex;
 flex-direction: column;
 justify-content: center;
 align-items: center;
 text-align: center;
 
-gap: 3.6rem;
+gap: 3rem;
+
+
 
 }
 
 .hero img {
   width: 477px;
+  max-width: 100%;
+  height: auto;
 
 }
 
 .content {
 color: var(--text-color-light);
-width: 80rem;
+max-width: 50rem; /*mudança*/
+width: 100%; /*mudança*/
 
 display: flex;
 flex-direction: column;
@@ -52,45 +57,63 @@ font: var(--h1);
 button {
 
   background-color: var(--bg-color-light);
-  padding: 0.8rem;
+  padding: 1rem 2rem;
   border-radius: 0.6rem;
   font: var(--h4);
+  border: none;
+  cursor: pointer;
+  transition: transform 0.2s ease;
 
 }
 
 /*CARDS SECTION*/
 
 .container {
- padding: 10rem 10rem;
+ padding: 6rem 4rem;
  background-color: var(--bg-color-light);
+ width: 100%; /*mudança*/
  
 }
+
+.container h2 {
+  font: var(--h2);
+  color: var(--text-color-black);
+  text-align: center;
+  margin-bottom: 4rem;
+  font-size: 2rem;
+  }
 
 .grid {
 display: grid;
 grid-template-columns: repeat(3, 1fr); 
-grid-template-rows: repeat(2, 200px);
-gap: 30px;
+
+gap: 2rem;
+max-width: 1200px;
+margin: 0 auto;
 
 }
 
 .grid-cards {
   background-color: var(--bg-color-dark);
   border-radius: 8px;
-  padding: 30px;
+  padding: 2rem;
   display: flex;
   flex-direction: column;
   align-items: center;
   justify-content: center;
   color: white;
   text-align: center;
+  min-height: 250px; /*mudança*/
+  transition: transform 0.3s ease, box-shadow 0.3s ease;
  
 }
 
 .icon {
-width: 50px;
-height: 50px;
-margin-bottom: 15px;
+width: 60px;
+height: 60px;
+margin-bottom: 1.5rem;
+
+padding: 10px;
 
 }
 
@@ -103,12 +126,63 @@ object-fit: cover;
 
 .grid-cards h4 {
     font: var(--h4);
+    font-size: 1.1rem;
+    margin-bottom: 1rem;
+    color: var(--text-color-light);
 
   }
 
 .grid-cards p {
-    font: var(--text-sm);
-    margin-top: 10px;
-  }
+  font: var(--text-sm);  
+}
+
+/*Challenge Section*/
+
+.challenge {
+ padding: 4rem 2rem;
+ background-color: var(--bg-color-dark);
+
+ display: flex;
+ gap: 60px;
+ align-items: center;
+ justify-content: center;
 
 
+}
+
+
+figure img {
+
+  width: 340px;
+  max-width: 100%;
+  height: auto;
+  border-radius: 15px;
+  object-fit: cover;
+  
+}
+
+
+.content-challenge {
+ 
+  color: var(--text-color-light);
+  max-width: 390px;
+  
+  
+}
+
+.content-challenge h1 {
+  font-size: 2.5rem;
+  margin-bottom: 30px;
+
+}
+
+.content-challenge p {
+  font: var(--text-sm);
+  margin-bottom: 30px;
+             
+}
+
+.content-challenge button {
+  padding: 1rem 3rem;
+  
+}
