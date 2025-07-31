@@ -106,7 +106,7 @@
         console.log('✅ Animações de entrada configuradas');
     }
     
-    // [... resto do código continua igual ...]
+
     
     // ===================================
     // INICIALIZAÇÃO
