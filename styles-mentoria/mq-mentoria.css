@@ -1,0 +1,162 @@
+/* Tablets e telas menores (até 768px) */
+@media (max-width: 768px) {
+  
+  /* CONGRATULATIONS SECTION */
+  .congratulations {
+    height: auto;
+    min-height: 100vh;
+    padding: 3rem 1.5rem;
+    background-attachment: scroll; /* melhora performance mobile */
+  }
+  
+  .text-background {
+    max-width: 100%;
+    width: 100%;
+  }
+  
+  .text-background h1 {
+    margin-bottom: 30px;
+    font-size: 2rem;
+  }
+  
+  .congratulations .text-background p {
+    font-size: 1rem;
+    line-height: 1.6;
+  }
+  
+  p + p {
+    margin-top: 15px;
+  }
+  
+  /* SOCIAL MEDIA SECTION */
+  .media {
+    padding: 4rem 1.5rem;
+  }
+  
+  .social-media-title {
+    margin-bottom: 2rem;
+  }
+  
+  .social-media-title h3 {
+    font-size: 1.8rem;
+    margin-bottom: 20px;
+  }
+  
+  .social-media-grid {
+    grid-template-columns: 1fr;
+    gap: 1.5rem;
+    max-width: 100%;
+  }
+  
+  .grid-media {
+    min-height: 250px;
+    padding: 1.5rem;
+  }
+  
+  .grid-media h4 {
+    width: 100%;
+    max-width: none;
+    font-size: 1.2rem;
+  }
+  
+  .grid-media p {
+    width: 100%;
+    max-width: none;
+    margin-top: 15px;
+  }
+  
+  .grid-media button {
+    padding: 0.5rem 1.5rem;
+    margin-top: 1.5rem;
+  }
+  
+  .whatsapp {
+    padding: 1.5rem;
+  }
+  
+  .whatsapp h1 {
+    font-size: 1.8rem;
+    margin-top: 15px;
+  }
+  
+  .whatsapp button {
+    padding: 0.5rem 1.5rem;
+    margin-top: 1.5rem;
+  }
+}
+
+/* Mobile (até 480px) */
+@media (max-width: 480px) {
+  
+  /* CONGRATULATIONS SECTION */
+  .congratulations {
+    padding: 2rem 1rem;
+    min-height: 100vh;
+  }
+  
+  .text-background h1 {
+    font-size: 1.6rem;
+    margin-bottom: 25px;
+    line-height: 1.3;
+  }
+  
+  .congratulations .text-background p {
+    font-size: 0.9rem;
+    line-height: 1.5;
+  }
+  
+  p + p {
+    margin-top: 12px;
+  }
+  
+  /* SOCIAL MEDIA SECTION */
+  .media {
+    padding: 3rem 1rem;
+  }
+  
+  .social-media-title h3 {
+    font-size: 1.5rem;
+    margin-bottom: 15px;
+  }
+  
+  .social-media-grid {
+    gap: 1rem;
+  }
+  
+  .grid-media {
+    min-height: 200px;
+    padding: 1rem;
+  }
+  
+  .grid-media h4 {
+    font-size: 1.1rem;
+  }
+  
+  .grid-media p {
+    font-size: 0.85rem;
+    margin-top: 10px;
+  }
+  
+  .grid-media button {
+    padding: 0.4rem 1.2rem;
+    width: 100%;
+    max-width: 200px;
+    font-size: 0.85rem;
+  }
+  
+  .whatsapp {
+    padding: 1rem;
+  }
+  
+  .whatsapp h1 {
+    font-size: 1.4rem;
+    margin-top: 10px;
+  }
+  
+  .whatsapp button {
+    padding: 0.4rem 1.2rem;
+    width: 100%;
+    max-width: 220px;
+    font-size: 0.85rem;
+  }
+}
