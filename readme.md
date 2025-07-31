@@ -169,8 +169,18 @@ function animatePageLoad() {
 }
 ```
 
-## Contato
+📝 Licença
+Este projeto está sob a licença MIT. Veja o arquivo LICENSE para mais detalhes.
 
-**Na Trilha do Dev**
-- Instagram: [@natrilhadodev](https://www.instagram.com/natrilhadodev/)
-- Outros links sociais disponíveis na página de mentoria
+👨‍💻 Autor
+<div align="center">
+
+Elide Paixão
+
+Desenvolvido com ❤️ no #TrilhaChallenge
+
+</div>
+
+🙏 Agradecimentos
+
+Na Trilha do Dev pela iniciativa do challenge
