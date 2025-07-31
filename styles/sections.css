@@ -386,3 +386,24 @@ p + p {
      }
 
   }
+
+  /*FOOTER*/
+
+  footer {
+    background-color: var( --bg-color-dark);
+    color: var(--text-color-light);
+    font: var(--text-xsm);
+
+    display: flex;
+    justify-content: space-between;
+
+    padding: 2rem 3rem;
+
+    word-spacing: 3px;
+    
+    a {
+       text-decoration: none;
+    }
+   
+  }
+
